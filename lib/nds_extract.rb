@@ -94,6 +94,7 @@ def gross_per_studio(collection)
 def movies_with_directors_set(source)
   movies_by_dir = [] 
   i = 0 
+  while i < source.length do 
   dir_info_hash = source[i] 
   director_name = dir_info_hash[:name]
   directors_movies = dir_info_hash[:movies] 
