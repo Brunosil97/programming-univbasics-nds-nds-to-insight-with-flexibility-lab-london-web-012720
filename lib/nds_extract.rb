@@ -99,6 +99,8 @@ def movies_with_directors_set(source)
   director_movies = dir_info_hash[:movies] 
   movies_by_dir << movies_with_director_key(director_name, director_movies) 
   i += 1 
+end 
+movies_by_dir
   
 end 
   # GOAL: For each director, find their :movies Array and stick it in a new Array
