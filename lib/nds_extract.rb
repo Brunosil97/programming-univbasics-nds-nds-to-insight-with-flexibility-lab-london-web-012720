@@ -96,7 +96,7 @@ def movies_with_directors_set(source)
   i = 0 
   dir_info_hash = source[i] 
   director_name = dir_info_hash[:name]
-  director_movie = dir_info_hash[:movies] 
+  director_movies = dir_info_hash[:movies] 
   movies_by_dir << 
   
 end 
